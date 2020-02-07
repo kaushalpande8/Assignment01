@@ -1,0 +1,6 @@
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\bin\Debug\AssignmentQ01.exe.config
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\bin\Debug\AssignmentQ01.exe
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\bin\Debug\AssignmentQ01.pdb
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\obj\Debug\AssignmentQ01.exe
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\obj\Debug\AssignmentQ01.pdb
+C:\Users\Kaushal Pandey\Desktop\Kaushal_Quality_Assignment\Assignment01\AssignmentQ01\obj\Debug\AssignmentQ01.csprojAssemblyReference.cache
