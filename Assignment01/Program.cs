@@ -7,7 +7,7 @@ namespace Assignment01
         static void Main(string[] args)
         {
             Rectangle r = new Rectangle();
-            int userChoose;
+            int userChoice;
             do
             {
 
@@ -19,10 +19,64 @@ namespace Assignment01
                 Console.WriteLine("5.Get Rectangle Perimeter");
                 Console.WriteLine("6.Get Rectangle Area");
                 Console.WriteLine("7.Exit");
-                userChoose = int.Parse(Console.ReadLine());
-                
+                userChoice = int.Parse(Console.ReadLine());
+
+                switch (userChoice)
+                {
+                    case 1:
+                        int changeLength = r.GetLenght();
+                        Console.WriteLine("Length is {0}", changeLength);
+                        break;
+                    case 2:
+                        int newLength;
+                        Console.WriteLine("Set the Rectangle length");
+                        newLength = int.Parse(Console.ReadLine());
+                        if (newLength > 0)
+                        {
+
+                            int returedLength = r.SetLenght(newLength);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Sorry!!!.....Input is not Valid");
+                        }
+                        break;
+                    case 3:
+                        int changeWidth = r.GetWidth();
+                        Console.WriteLine(" Width is {0}", changeWidth);
+                        break;
+                    case 4:
+                        int newWidth;
+                        Console.WriteLine("Set the Rectangle Width");
+                        newWidth = int.Parse(Console.ReadLine());
+                        if (newWidth > 0)
+                        {
+
+                            int returedLength = r.SetWidth(newWidth);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Please enter a valid input");
+                        }
+                        break;
+                    case 5:
+                        int perimeterValue = r.GetPerimeter();
+                        Console.WriteLine("Perimeter is {0}", perimeterValue);
+                        break;
+                    case 6:
+                        int areaValue = r.GetArea();
+                        Console.WriteLine("Your Area is {0}", areaValue);
+                        break;
+                    case 7:
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Sorry!!!!.... Wrong Input Enter Valid Option");
+                        break;
+                }
 
             } while (true);
+           
          }
     }
 }
